@@ -1,0 +1,88 @@
+* {box-sizing:border-box}
+
+/*start main rules*/
+
+.body{height:588px}
+.container{width:980px;margin:auto;font-family:"Trebuchet MS", Helvetica, sans-serif}
+.clearfix {clear:both}
+
+/*end main rules*/
+
+/*start navbar*/
+
+.navbar {
+    width:100%;
+    margin:0 auto;
+    padding:0;
+    height: 85%;
+    background:#3b5998;
+    color:#fff;
+    overflow:hidden;
+}
+.navbar li {list-style-type:none;float:left}
+.navbar li span {margin-top:5px;margin-bottom:3px;display:inline-block}
+
+.navbar h2 {font-size:40px;margin-top:25px;margin-bottom:0}
+.navbar form {float:right;margin-top:10px;margin-right: 10px}
+.navbar form li {margin-left:15px;font-size:13px}
+.navbar form input[type=text] {background-color:#fff;border:0;width:145px;margin-top:3px;margin-bottom:3px;height:21px;padding-left:3px}
+.navbar form input[type="submit"]{height:22px;margin-top:24px;background-color:#4267b2;color:white;border:1px solid #29487d}
+li a {color:#B2B3FF;padding:0;font-size:12px;text-decoration:none;margin-bottom:5px;margin-top:5px;display:block}
+li a:hover {text-decoration:underline}
+
+/*end navbar*/
+
+/*start HM*/
+.HM {background-color:#e9ebee;overflow: hidden;}
+
+.HM .pic{float:left;width:59%;}
+.HM .pic p{margin-top:40px;margin-bottom: 3px;font-size: 20px;width: 450px;line-height: 28px;color:#1b3976;font-weight: 900;}
+
+.HM .sam {float:right;width:41%}
+.HM .sam .words h2 {color:#333333;font-size: 35px;margin-bottom: 0;margin-top: 15px;font-weight: 600;}
+.HM .sam .words span {margin-top:5px;display:block;}
+
+.HM .sam form input {margin-bottom: 10px;height: 38px;border-radius: 5px;border: 1px solid #bdc7d8; padding-left:10px}
+
+.HM .sam form input[type=text] {margin-right:10px;width: 195px}
+.HM .sam form input[class=surname]{margin-right:0}
+
+.HM .sam form input[class=new],
+.HM .sam form input[class=mob]     {width:100%}
+
+.HM .sam .BD .selecting {width:50%}
+.HM .sam .BD .help {width:50%}
+
+.HM .sam h2 {font-weight: 100;margin-bottom: 7px;margin-top: 13px;font-size: 22px;color:#333333}
+.HM .sam .BD select {width:66px;height:32px;border: 1.5px solid #bdc7d8;font-size:15px;float:left}
+.HM .sam .BD p {margin-top: 0;margin-left: 5px;margin-bottom:3px;font-size: 13px;line-height: 1}
+.HM .sam .BD p a {text-decoration:none;color:#7382BF;line-height:1.2}
+.HM .sam .gender {color:#333333;font-size:20px;float:left;margin:15px 0;width:100%}
+.HM .sam .gender label {padding:0 10px 0 3px}
+
+.HM .sam .info {line-height:1.4;color:#8b8b8b;font-size:13px}
+.HM .sam .info span a,
+.HM .help2 a,
+div.end span a {text-decoration:none;color:#7382BF}
+.HM .sam .info span a:hover,
+.HM .sam .BD .help p a:hover,
+.HM .help2 a:hover,
+div.end span a:hover  {text-decoration:underline;color:#4D5FA8}
+input[class="SU"]{background-color:#61a04e;padding:12px 80px 8px 80px;border:1.3px solid #3b6e22;border-radius:5px;color:#fff;font-weight:bold;text-shadow:0px 1px 3px #686767}
+.HM .sam hr {height:1px;border:0;background-color:#CFCFCF;margin:25px 0 15px 0}
+.HM .sam .help2 {margin-bottom:30px;}
+.HM .sam .help2 a{margin-bottom:30px;color:#4D5FA8;font-weight:bold}
+.flex {margin:40px 0 10px 0}
+.flex span,
+.elements span {margin-right:10px;text-transform: capitalize;color:#7382BF;font-size:12px}
+.end hr {height:1px;border:0;background-color:#CFCFCF;margin:10px 0 10px 0}
+.elements {margin:10px 0 30px 0}
+div.container > span {color:#8b8b8b;margin-bottom:70px;font-size:20px;font-size: 13px;display: block}
+
+/*end HM*/
+
+/*start my frame work*/
+
+.fl-left {float:left}
+
+/*end my frame work*/
